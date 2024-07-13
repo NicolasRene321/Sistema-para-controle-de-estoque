@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Poetsen+One&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(42, 138, 39);
+    background-image: url(../img/background.jpg);
+    background-attachment: fixed;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 98vw;
+    
+}
+
+main {
+    background-color: rgba(21, 109, 33, 0.808);
+    border: 3px solid rgb(2, 46, 12);
+    border-radius: 20px;
+    width: 800px;
+    padding-bottom: 20px;
+    margin-top: 150px;
+    
+}
+
+main.atualizar-apagar-buscar {
+    padding-top: 30px;
+    width: 400px;
+
+}
+
+h1 {
+    font-family: "Honk", system-ui;
+    font-size: 2.4em;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+button {
+    width: 250px;
+    cursor: pointer;
+}
+
+button.voltarHome {
+    margin-top: 15px;
+}
+
+button.voltarHome:hover {
+    color: brown;
+}
+
+button.botaoPrincipal:hover {
+    background-color: rgba(190, 185, 185, 0.39);
+    transition: 300ms;
+}
+
+hr {
+    margin-bottom: 30px;
+    width: 250px;
+    background-color: rgba(241, 241, 241, 0.774);
+    border: none;
+    padding: 2px;
+}
+
+hr.linha {
+    width: 365px;
+}
+
+input, button {
+    background-color: rgb(27, 25, 25);
+    color: white;
+    min-height: 40px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    border-radius: 12px;
+    text-align: center;
+}
+
+input::placeholder{
+    color: green;
+    text-align: center;
+}
+
+div#res {
+    margin-top: 20px;
+    background-color: rgb(19, 107, 16);
+    color: black;
+    border-radius: 5px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style/style.css">
+    <script src="../js/cadastrarEntrega.js" defer></script>
+    <title>Cadastrar Entrega</title>
+</head>
+<body>
+    <main>
+        <button class="voltarHome" onclick="location.href='index.html'">Voltar</button><br><br>
+        <hr> 
+        <h2>Cadastrar Entrega</h2>
+        <label for="dataEntrega">Data da Entrega</label><br>
+        <input type="text" id="dataEntrega" placeholder="Exemplo: 2020-06-30"><br>
+
+        <label for="nomeProdutoEntrega">Nome do produto</label><br>
+        <input type="text" id="nomeProdutoEntrega"><br>
+
+        <label for="quantidadeEntrega">Quantidade</label><br>
+        <input type="text" id="quantidadeEntrega"><br>
+
+        <label for="responsavelEntrega">Responsável pela entrega</label><br>
+        <input type="text" id="responsavelEntrega"><br>
+
+        <label for="estoqueId">ID do estoque</label><br>
+        <input type="text" id="estoqueId"><br>
+
+        <label for="funcionarioId">ID do funcionário</label><br>
+        <input type="text" id="funcionarioId"><br><br>
+
+        <button id="cadastrarEntrega">Cadastrar</button>
+    </main>      
+    <div id="res"></div>
+</body>
+</html>
